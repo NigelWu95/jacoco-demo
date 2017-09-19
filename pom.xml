@@ -205,7 +205,7 @@
                 <artifactId>sonar-break-maven-plugin</artifactId>
                 <version>2.0.1</version>
                 <configuration>
-                    <sonarServer>http://sonar.gityu.com:9000</sonarServer>
+                    <sonarServer>http://localhost:9000</sonarServer>
                     <waitForProcessingSeconds>600</waitForProcessingSeconds>
                     <!--<sonarLookBackSeconds>100</sonarLookBackSeconds>-->
                 </configuration>
@@ -217,7 +217,7 @@
         <repository>
             <id>snapshots</id>
             <name>maven-mynexus-repo</name>
-	    <url>http://<your-nexus-ip-address>/repository/maven-snapshots/</url>
+	    <url>http://localhost:8081/repository/maven-snapshots/</url>
         </repository>
     </distributionManagement>
 
